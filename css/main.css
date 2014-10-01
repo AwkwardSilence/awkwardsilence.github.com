@@ -1,0 +1,28 @@
+body {
+    background-color: green;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+#introduction {
+    float: left;
+    width: 40%;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+}
+
+.table_container {
+    float: left;
+    width: 55%;
+    background-color: black;
+    border-color: black;
+    border-styl: solid;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
