@@ -1,28 +1,59 @@
 body {
-    background-color: green;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
 }
 
 p {
     font-family: sans-serif;
 }
 
-#introduction {
-    float: left;
-    width: 40%;
-    background-color: gray;
-    border-color: black;
-    border-style: solid;
+div {
+    margin: 5px;
+    padding: 5px;
 }
 
-.table_container {
-    float: left;
-    width: 55%;
-    background-color: black;
-    border-color: black;
-    border-styl: solid;
+#introduction {
+    width:        90%;
+    height:       60%;
+    margin-left:  auto;
+    margin-right: auto;
+    border:       2px black solid;
+}
+
+#introduction #left_intro {
+    width:  49%;
+    height: 100%;
+    border: 2px black solid;
+    float:  left;
+}
+
+#introduction #right_intro {
+    width:  49%;
+    height: 100%;
+    border: 2px black solid;
+    float:  left;
+}
+
+#table_container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table_container table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     height: 200px;
+}
+
+td img {
+    width: 100px;
+    height: 100px;    
 }
